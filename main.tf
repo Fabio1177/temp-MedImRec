@@ -33,7 +33,6 @@ resource "google_storage_bucket_object" "upload_terraform_coc_mypp_processed_cv_
 
 
 
-
 resource "google_storage_bucket" "terraform_coc_mypp_sap_integration" {
   name     = "terraform-coc-mypp-sap-integration"
   location = "eu"
