@@ -1,0 +1,53 @@
+{
+    "education": {
+        "courses": [],
+        "education": [
+            {
+                "degree": "degree_Masters",
+                "endDate": "2014",
+                "institute": "San Diego University",
+                "major": "major_Computer_Science",
+                "nameOfEducation": "ME Software Development",
+                "startDate": "2012"
+            },
+            {
+                "degree": "degree_Bachelors",
+                "endDate": "2012",
+                "institute": "San Diego University",
+                "major": "major_Computer_Science",
+                "nameOfEducation": "BS Software Engineering",
+                "startDate": "2008"
+            }
+        ]
+    },
+    "generalInformation": {
+        "personalInformation": {
+            "country": "USA",
+            "email": "helena@gmail.com",
+            "mobilePhone": "+123-456-7890",
+            "name": "Elena Alvarado",
+            "url": "www.reallygreatsite.com",
+            "userID": "A898306"
+        },
+        "summary": "Experienced Software Engineer with a decade of expertise in full-stack development. Proven proficiency in designing, implementing, testing, and maintaining software solutions within project timelines. Demonstrates mastery in programming languages including Java, Python, and JavaScript. Skilled in utilizing technologies like React, Spring Boot, and Node.js."
+    },
+    "skills": {
+        "businessSkills": [],
+        "languages": [
+            {
+                "language": "English",
+                "proficiency": "C2 Mastery"
+            },
+            {
+                "language": "French",
+                "proficiency": "B1/B2 Intermediate"
+            },
+            {
+                "language": "Spanish",
+                "proficiency": "A1 Beginner"
+            }
+        ],
+        "softSkills": [],
+        "technicalSkills": []
+    }
+}

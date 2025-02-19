@@ -1,0 +1,8 @@
+source/Bucket-terraform-coc-mypp-processed-cv/cvcarmen.json
+source/Bucket-terraform-coc-mypp-processed-cv/Álvaro Barrera 1 cara.json
+source/Bucket-terraform-coc-mypp-processed-cv/files_cv_pdf_cv03.json
+source/Bucket-terraform-coc-mypp-processed-cv/cv01.json
+source/Bucket-terraform-coc-mypp-processed-cv/cv03.json
+source/Bucket-terraform-coc-mypp-processed-cv/Curriculum (1)-2 (1).json
+source/Bucket-terraform-coc-mypp-processed-cv/CVAlvaro.json
+source/Bucket-terraform-coc-mypp-processed-cv/payload.json

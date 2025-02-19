@@ -1,0 +1,78 @@
+{
+    "education": {
+      "courses": [
+        {
+          "durationHours": "35",
+          "endDate": "01-2020",
+          "institute": "Helsinki Espa\u00f1a",
+          "nameOfCourse": "Human Rights Course",
+          "startDate": "01-2020"
+        }
+      ],
+      "education": [
+        {
+          "degree": "Bachelors",
+          "endDate": "now",
+          "institute": "University Carlos III de Madrid (UC3M)",
+          "major": "Political Science",
+          "nameOfEducation": "Dual Bachelor's in International Studies and Political Science (Bilingual)",
+          "startDate": "01-2019"
+        },
+        {
+          "degree": "Other",
+          "endDate": "now",
+          "institute": "University Carlos III de Madrid (UC3M)",
+          "major": "Law",
+          "nameOfEducation": "Minor in Law",
+          "startDate": "01-2019"
+        },
+        {
+          "degree": "Other",
+          "endDate": "01-2023",
+          "institute": "Sciences Po Grenoble",
+          "major": "Other",
+          "nameOfEducation": "Erasmus + Programme",
+          "startDate": "01-2022"
+        }
+      ]
+    },
+    "generalInformation": {
+      "personalInformation": {
+        "country": "ESP",
+        "email": "carmen.oliuez@gmail.com",
+        "mobilePhone": "+34 631 56 78 90",
+        "name": "Carmen Oliver",
+        "url": "https://www.linkedin.com/in/carmen-oliverv/",
+        "userID": "A898306"
+      },
+      "summary": "I am a last year university student looking to take the next step in my university career and begin a graduate program. During my time at college, I have developed theoretical and practical skills that have helped me deepen my critical thinking and problem resolution skills. Additionally, balancing my studies with student representation and other activities greatly improved my time management and adaptability. Above all I am a very proactive and detail-oriented person that always strives for greatness."
+    },
+    "skills": {
+      "businessSkills": [],
+      "languages": [
+        {
+          "language": "Spanish",
+          "proficiency": "C2 Mastery"
+        },
+        {
+          "language": "English",
+          "proficiency": "C1 Advanced"
+        },
+        {
+          "language": "French",
+          "proficiency": "B1/B2 Intermediate"
+        }
+      ],
+      "softSkills": [],
+      "technicalSkills": [
+        {
+          "proficiency": "Proficient",
+          "technicalSkill": "Technologies:Microsoft:MS Office"
+        },
+        {
+          "proficiency": "Proficient",
+          "technicalSkill": "Technologies:Microsoft:MS Excel"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,89 @@
+{
+  "education": {
+    "courses": [
+      {
+        "durationHours": "N/A",
+        "endDate": "2018",
+        "institute": "DevFest-GDG Jaipur",
+        "nameOfCourse": "DevFest-GDG Jaipur meetup",
+        "startDate": "2018"
+      }
+    ],
+    "education": [
+      {
+        "degree": "degree_Bachelors",
+        "endDate": "05-2020",
+        "institute": "LNM Institute of Information Technology, Jaipur",
+        "major": "major_Computer_Science",
+        "nameOfEducation": "Bachelor of Technology",
+        "startDate": "08-2016"
+      },
+      {
+        "degree": "degree_High_Diploma",
+        "endDate": "07-2015",
+        "institute": "St. Joseph Public School, Kota (Raj.)",
+        "major": "major_Other",
+        "nameOfEducation": "Class XII (Senior Secondary Examination)",
+        "startDate": "07-2013"
+      },
+      {
+        "degree": "degree_High_Diploma",
+        "endDate": "07-2013",
+        "institute": "St. Joseph Public School, Kota (Raj.)",
+        "major": "major_Other",
+        "nameOfEducation": "Class X (Secondary Examination)",
+        "startDate": "07-2011"
+      }
+    ]
+  },
+  "generalInformation": {
+    "personalInformation": {
+      "country": "IND",
+      "email": "aneeshjain203@gmail.com",
+      "mobilePhone": "+91 88750-43800",
+      "name": "Aneesh Jain",
+      "url": "www.linkedin.com/in/aneeshjain203,https://www.github.com/Aneesh540",
+      "userID": "A898306"
+    },
+    "summary": "Pre-Final year B. Tech student at LNMIIT. Inquisitive, hard-working and consistent. Looking for internship opportunities at Microsoft where I can apply my skills and contribute to real-world projects"
+  },
+  "skills": {
+    "businessSkills": [],
+    "languages": [],
+    "softSkills": [],
+    "technicalSkills": [
+      {
+        "proficiency": "Proficient",
+        "technicalSkill": "Technologies:Other Vendors:Python"
+      },
+      {
+        "proficiency": "Junior",
+        "technicalSkill": "Technologies:Other Vendors:C++"
+      },
+      {
+        "proficiency": "Junior",
+        "technicalSkill": "Technologies:Other Vendors:PostgreSQL"
+      },
+      {
+        "proficiency": "Junior",
+        "technicalSkill": "Technologies:Other Vendors:Flask"
+      },
+      {
+        "proficiency": "Junior",
+        "technicalSkill": "Technologies:Oracle:Core java"
+      },
+      {
+        "proficiency": "Junior",
+        "technicalSkill": "Technologies:Other Vendors:JavaScript"
+      },
+      {
+        "proficiency": "Junior",
+        "technicalSkill": "Technologies:Other Vendors:HTML"
+      },
+      {
+        "proficiency": "Proficient",
+        "technicalSkill": "Methods and Standards:Technical Skills Methods & Standards:Object Oriented Programming (OOP)"
+      }
+    ]
+  }
+}

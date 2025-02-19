@@ -1,0 +1,104 @@
+{
+  "education": {
+    "courses": [
+      {
+        "durationHours": "30h",
+        "endDate": "02-2022",
+        "institute": "Centro de formaci\u00f3n permanente (USAL)",
+        "nameOfCourse": "Course in Data Analysis with Artificial Intelligence",
+        "startDate": "02-2022"
+      },
+      {
+        "durationHours": "15h",
+        "endDate": "19-04-2018",
+        "institute": "Fundaci\u00f3n Duques de Soria",
+        "nameOfCourse": "Meeting on Frontiers of Science (USAL and UVa)",
+        "startDate": "22-02-2017"
+      },
+      {
+        "durationHours": "null",
+        "endDate": "29-07-2023",
+        "institute": "Grupo de estudiantes de la Real Sociedad Espa\u00f1ola de F\u00edsica (UniOvi)",
+        "nameOfCourse": "National Meeting of Physics Students (ENEF)",
+        "startDate": "26-07-2023"
+      }
+    ],
+    "education": [
+      {
+        "degree": "degree_Masters",
+        "endDate": "01-2019",
+        "institute": "University of Salamanca",
+        "major": "major_Mathematics",
+        "nameOfEducation": "Master in Mathematical Modeling",
+        "startDate": "01-2018"
+      },
+      {
+        "degree": "degree_Bachelors",
+        "endDate": "01-2018",
+        "institute": "University of Salamanca",
+        "major": "major_Physics",
+        "nameOfEducation": "Bachelor of Physics",
+        "startDate": "01-2014"
+      }
+    ]
+  },
+  "generalInformation": {
+    "personalInformation": {
+      "country": "ESP",
+      "email": "barrerabc98@hotmail.com",
+      "mobilePhone": "+34 636 900 982",
+      "name": "\u00c1lvaro Barrera Crespo",
+      "url": "http://www.linkedin.com/in/alvaro-barrera-crespo",
+      "userID": "A898306"
+    },
+    "summary": "Technology enthusiast in search of new challenges to develop professionally. I am motivated to bring new research closer to people through the world of business."
+  },
+  "skills": {
+    "businessSkills": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "B1/B2 Intermediate"
+      },
+      {
+        "language": "French",
+        "proficiency": "C1 Advanced"
+      },
+      {
+        "language": "German",
+        "proficiency": "B1/B2 Intermediate"
+      },
+      {
+        "language": "Spanish",
+        "proficiency": "C2 Mastery"
+      }
+    ],
+    "softSkills": [],
+    "technicalSkills": [
+      {
+        "proficiency": "Senior",
+        "technicalSkill": "Technologies:Other Vendors:Python"
+      },
+      {
+        "proficiency": "Proficient",
+        "technicalSkill": "Technologies:Other Vendors:Fortran"
+      },
+      {
+        "proficiency": "Proficient",
+        "technicalSkill": "Technologies:Other Vendors:Mathematica"
+      },
+      {
+        "proficiency": "Proficient",
+        "technicalSkill": "Technologies:Other Vendors:Git SCM"
+      },
+      {
+        "proficiency": "Senior",
+        "technicalSkill": "Technologies:Other Vendors:Linux"
+      },
+      {
+        "proficiency": "Junior",
+        "technicalSkill": "Technologies:Other Vendors:QGIS Geographic Information System"
+      }
+    ]
+  }
+}
