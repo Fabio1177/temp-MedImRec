@@ -1,2 +1,13 @@
 .terraform/providers/registry.terraform.io/hashicorp/google/6.20.0/linux_amd64/terraform-provider-google_v6.20.0_x5
 auth/token.json
+.terraform/providers/registry.terraform.io/hashicorp/google/6.21.0/linux_amd64/terraform-provider-google_v6.21.0_x5
+Bucket-terraform-my-pp/gecko_skills_embeddings1column.npy
+Bucket-terraform-my-pp/gecko_skills_embeddings3column.npy
+Bucket-terraform-my-pp/cluster_skills_embeddings.npy
+Bucket-terraform-my-pp/cluster_majors_embeddings_005.npy
+source/Bucket-terraform-my-pp/cluster_skills_embeddings_005.npy
+source/Bucket-terraform-my-pp/cluster_skills_embeddings.npy
+source/Bucket-terraform-my-pp/gecko_skills_embeddings1column.npy
+source/Bucket-terraform-my-pp/gecko_skills_embeddings3column.npy
+source/Bucket-terraform-my-pp/cluster_majors_embeddings_005.npy
+

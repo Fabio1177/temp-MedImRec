@@ -1,0 +1,13 @@
+source/Bucket-terraform-my-pp/cluster_majors_embeddings_005.npy
+source/Bucket-terraform-my-pp/Skills.csv
+source/Bucket-terraform-my-pp/skill_list.jsonl
+source/Bucket-terraform-my-pp/gecko_skills_embeddings1column.npy
+source/Bucket-terraform-my-pp/cluster_skills_embeddings.npy
+source/Bucket-terraform-my-pp/cluster_skills_embeddings_005.npy
+source/Bucket-terraform-my-pp/ListSkills.txt
+source/Bucket-terraform-my-pp/gecko_skills_embeddings3column.npy
+source/Bucket-terraform-my-pp/majors_embeddings.npy
+source/Bucket-terraform-my-pp/Skills.xlsx
+source/Bucket-terraform-my-pp/skills_3columns.txt
+source/Bucket-terraform-my-pp/cluster_majors_embeddings.npy
+source/Bucket-terraform-my-pp/major_list.xlsx

@@ -1,0 +1,4 @@
+source/Bucket-terraform-my-pp/category_embeddings_1col/tech_embeddings_1column.npy
+source/Bucket-terraform-my-pp/category_embeddings_1col/bus_embeddings_1column.npy
+source/Bucket-terraform-my-pp/category_embeddings_1col/lan_embeddings_1column.npy
+source/Bucket-terraform-my-pp/category_embeddings_1col/cert_embeddings_1column.npy

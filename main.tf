@@ -33,6 +33,8 @@ resource "google_storage_bucket_object" "upload_terraform_coc_mypp_processed_cv_
 
 
 
+
+
 resource "google_storage_bucket" "terraform_coc_mypp_sap_integration" {
   name     = "terraform-coc-mypp-sap-integration"
   location = "eu"
@@ -61,6 +63,149 @@ resource "google_storage_bucket_object" "upload_terraform_coc_mypp_sap_integrati
   source = each.value
 #   acl    = "private"
 }
+
+
+
+
+
+
+
+
+
+resource "google_storage_bucket" "terraform_coc_mypp_processed_pdf" {
+  name     = "terraform-coc-mypp-processed-pdf"
+  location = "eu"
+  uniform_bucket_level_access = true
+
+  public_access_prevention = "enforced"
+
+  storage_class = "NEARLINE"
+}
+
+# Run a script to get a list of files from the local directory
+resource "null_resource" "scan_terraform_coc_mypp_processed_pdf_files" {
+  provisioner "local-exec" {
+    command = "find source/Bucket-terraform-coc-mypp-processed-pdf -type f -exec echo {} \\; > terraform_coc_mypp_processed_pdf_files.txt"
+  }
+
+  triggers = {
+    always_run = "${timestamp()}"
+  }
+}
+
+# Upload all the files to the storage bucket
+resource "google_storage_bucket_object" "upload_terraform_coc_mypp_processed_pdf_files" {
+  for_each = toset([for file in split("\n", trimspace(file("terraform_coc_mypp_processed_pdf_files.txt"))): file if length(file) > 0])
+
+  name   = basename(each.value)
+  bucket = google_storage_bucket.terraform_coc_mypp_processed_pdf.name
+  source = each.value
+#   acl    = "private"
+}
+
+
+
+
+
+resource "google_storage_bucket" "terraform_coc_mypp_failed_cv" {
+  name     = "terraform-coc-mypp-failed-cv"
+  location = "eu"
+  uniform_bucket_level_access = true
+
+  public_access_prevention = "enforced"
+
+  #storage_class = "NEARLINE"
+}
+
+# Run a script to get a list of files from the local directory
+resource "null_resource" "scan_terraform_coc_mypp_failed_cv_files" {
+  provisioner "local-exec" {
+    command = "find source/Bucket-terraform-coc-mypp-failed-cv -type f -exec echo {} \\; > terraform_coc_mypp_failed_cv_files.txt"
+  }
+
+  triggers = {
+    always_run = "${timestamp()}"
+  }
+}
+
+# Upload all the files to the storage bucket
+resource "google_storage_bucket_object" "upload_terraform_coc_mypp_failed_cv_files" {
+  for_each = toset([for file in split("\n", trimspace(file("terraform_coc_mypp_failed_cv_files.txt"))): file if length(file) > 0])
+
+  name   = basename(each.value)
+  bucket = google_storage_bucket.terraform_coc_mypp_failed_cv.name
+  source = each.value
+#   acl    = "private"
+}
+
+
+
+
+
+
+
+
+
+
+resource "google_storage_bucket" "terraform_my_pp" {
+  name     = "terraform-my-pp"
+  location = "europe-southwest1"
+  uniform_bucket_level_access = true
+
+  public_access_prevention = "enforced"
+
+  labels = {
+    coc-my-pp = "bucket"
+  }
+
+  #storage_class = "NEARLINE"
+}
+
+# Run a script to get a list of files from the local directory
+resource "null_resource" "scan_terraform_my_pp" {
+  provisioner "local-exec" {
+    command = "find source/Bucket-terraform-my-pp -maxdepth 1 -type f -exec echo {} \\; > terraform_my_pp_files.txt"
+  }
+
+  triggers = {
+    always_run = "${timestamp()}"
+  }
+}
+
+# Upload all the files to the storage bucket
+resource "google_storage_bucket_object" "upload_terraform_my_pp_files" {
+  for_each = toset([for file in split("\n", trimspace(file("terraform_my_pp_files.txt"))): file if length(file) > 0])
+  
+  name   = basename(each.value)
+  bucket = google_storage_bucket.terraform_my_pp.name
+  source = each.value
+#   acl    = "private"
+}
+
+
+
+
+# Run a script to get a list of files from the local directory
+resource "null_resource" "scan_terraform_my_pp_category_embeddings_1col" {
+  provisioner "local-exec" {
+    command = "find source/Bucket-terraform-my-pp/category_embeddings_1col -maxdepth 1 -type f -exec echo {} \\; > terraform_my_pp_category_embeddings_1col_files.txt"
+  }
+
+  triggers = {
+    always_run = "${timestamp()}"
+  }
+}
+
+resource "google_storage_bucket_object" "category_embeddings_1col" {
+  for_each = toset([for file in split("\n", trimspace(file("terraform_my_pp_category_embeddings_1col_files.txt"))): file if length(file) > 0])
+
+  name   = "category_embeddings_1col/${basename(each.value)}"  # Use a slash at the end to simulate a folder
+  bucket = google_storage_bucket.terraform_my_pp.name
+  source = each.value
+}
+
+
+
 
 # terraform-CV_processing-job
 resource "google_storage_bucket" "terraform_coc_medimrec_poc_bucket" {
